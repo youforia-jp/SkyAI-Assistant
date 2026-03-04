@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "skyai",
+	"version": "${version}",
+	"name": "SkyAI",
+	"description": "AI-powered Minecraft assistant",
+	"authors": [],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/skyai/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.modid.SkyAI"
+		],
+		"client": [
+			"name.modid.SkyAIClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
